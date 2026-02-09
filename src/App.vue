@@ -1,4 +1,5 @@
 <script setup>
+import Skills from "./components/Skills.vue"
 const name = "饶硕"
 const goal = "12周做出可交付的学员管理系统并上线演示"
 const skills = ["Vue3", "JavaScript", "Git", "Node.js（学习中）"]
@@ -21,12 +22,8 @@ const projects = [
       <p class="goal">{{ goal }}</p>
     </header>
 
-    <section class="card">
-      <h2>技能</h2>
-      <ul>
-        <li v-for="s in skills" :key="s">{{ s }}</li>
-      </ul>
-    </section>
+    <Skills :skills="skills" />
+
 
     <section class="card">
       <h2>项目</h2>

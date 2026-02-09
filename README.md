@@ -1,5 +1,15 @@
-# Vue 3 + Vite
+# portfolio
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+个人作品集主页（Day1）
 
-Learn more about IDE Support for Vue in the [Vue Docs Scaling up Guide](https://vuejs.org/guide/scaling-up/tooling.html#ide-support).
+## 目标
+12周完成可交付的学员管理系统并上线演示；每天至少一次提交。
+
+## 技术栈
+- Vue 3
+- Vite
+
+## 本地运行
+```bash
+npm install
+npm run dev
